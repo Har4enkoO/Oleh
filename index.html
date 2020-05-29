@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Click Game</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="">FAQ / Instructions / Bugfixing</a> -
+        <a href="">Game Updates Log</a> -
+        <a href="">Import/Export Save</a>
+      </nav>
+      <h1 id="universe">The Thorp of</h1>
+      <p id="mighty">Ruled by the mighty</p>
+    </header>
+    <div id="basicResources">
+      <h3>Basic Resources</h3>
+      <div class="resouses">
+        <button id="food" class="gather">
+          Gather Food
+        </button>
+        <span>Food: </span>
+        <span id="foodCounter"></span>
+      </div>
+      <div class="resouses">
+        <button id="wood" class="gather">
+          Cut Wood
+        </button>
+        <span>Wood: </span>
+        <span id="woodCounter"></span>
+      </div>
+      <div class="resouses">
+        <button id="stone" class="gather">
+          Mine Stone
+        </button>
+        <span>Stone: </span>
+        <span id="stoneCounter"></span>
+      </div>
+    </div>
+
+    <div>
+      <button id="worker" class="gather">
+        Worker
+      </button>
+      <span id="workerCounter"></span>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

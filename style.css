@@ -1,0 +1,15 @@
+body {
+}
+nav {
+  text-align: right;
+}
+.gather {
+  width: 100px;
+  border: 2px solid black;
+}
+.gather:hover {
+  background-color: cadetblue;
+}
+.resouses {
+  margin: 40px;
+}
